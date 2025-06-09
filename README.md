@@ -1,7 +1,5 @@
 # opengles-cpp
 
-![](./opengl-cpp.png)
-
 ## Introduce
 
 C++ wrapper of opengles, there is a car driving scene in the project demo. It can be easily ported to Android using the native window instead of glfw3.
@@ -17,6 +15,8 @@ Necessarities in os `Ubuntu 18.04.6 LTS` are listed below
 
 ## Build
 
+Use cmake to build your project
+
 ```cmake
 mkdir build
 cd build
@@ -24,3 +24,6 @@ cmake . ../
 make -j8
 ```
 
+## Run
+
+The running effect is as shown in the figure below![](./opengl-cpp.png)
